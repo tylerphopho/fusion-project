@@ -1,0 +1,23 @@
+#body-content {
+    font-family: 'Noto Serif' serif;
+}
+
+.dropdown .indicator {
+    background-color: white;
+}
+
+.dropdown .dropdown a:focus, .dropdown .dropdown a:focus.active {
+    background: transparent;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    margin: 20px, 0;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #e53935 ;
+    box-shadow: 0 1px 0 0 #e53935;
+  }
