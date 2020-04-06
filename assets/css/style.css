@@ -1,15 +1,6 @@
 #body-content {
     font-family: 'Noto Serif' serif;
 }
-
-.dropdown .indicator {
-    background-color: white;
-}
-
-.dropdown .dropdown a:focus, .dropdown .dropdown a:focus.active {
-    background: transparent;
-}
-
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -17,7 +8,38 @@
     margin: 20px, 0;
 }
 
-.input-field input[type=text]:focus {
-    border-bottom: 1px solid #e53935 ;
-    box-shadow: 0 1px 0 0 #e53935;
-  }
+header {
+    background: url(./images/fusion_banner.JPEG);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+@media screen and (max-width: 744px){
+    header{
+        min-height: 500px;
+    }
+}
+
+nav {
+    height: 90px;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h1, h5, h3 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
