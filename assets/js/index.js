@@ -6,4 +6,6 @@ $(document).ready(function(){
         interval: 6000,
     });
     $(".modal").modal();
+    $('.tabs').tabs();
+    $(".tabs-content").css('height','1000px');
 })
